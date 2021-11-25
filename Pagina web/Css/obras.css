@@ -1,0 +1,28 @@
+div.centrar{
+    display:flex ;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 50px;
+    border-style: solid;
+    border-collapse: collapse;
+    }
+
+    table {
+        width: 90%;
+        margin: 5px;
+    }
+    
+    td{
+        width: 25%;
+    }
+    #links
+    {
+        margin-left: 30%;}
+        #tabla{
+            border-bottom-style: solid ;
+        }
+        
+        a{
+            text-decoration: none;
+            color: rgb(3, 158, 93);
+        }

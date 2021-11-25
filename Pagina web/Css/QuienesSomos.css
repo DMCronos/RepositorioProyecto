@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.logo {
+text-align: left;
+ }
+
+a {
+text-decoration: none;
+} 
+
+blockquote {
+    height: 170px;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: 5px;
+}
+
+td{
+    width: 25%;
+}
+#links
+{
+    margin-left: 30%;
+}
+body{
+    border-style: solid;
+}
+#quiensos{
+    border-bottom-style: solid ;
+}
+a{
+    text-decoration: none;
+    color: rgb(3, 158, 93);
+}

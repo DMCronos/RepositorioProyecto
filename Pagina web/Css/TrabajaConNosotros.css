@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color:rgb(37, 207, 37);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    text-align: justify;
+}
+div{
+    align-content: center;
+}
+table {
+    width: 90%;
+    margin: 0px;
+}
+
+td{
+    width: 25%;
+}
+a{
+    text-decoration: none;
+}
+#links
+{
+    margin-left: 30%;
+}
+a{
+    text-decoration: none;
+    color: rgb(3, 158, 93);
+}

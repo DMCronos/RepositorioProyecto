@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿olvidaste la contraseña?</title>
+    <link rel="stylesheet" type="text/css" href="../css/olvidasteContraseña.css" media="screen">
+</head>
+
+<body>
+
+    <div class="olvidadizo">
+    <table>
+        <tr>
+            <td align="left"><img src="../Varios/LOGO_TUIS.png" width="350" height="200"></td>
+            <div class="links">
+    
+            <td><a href="login.html">login</a> </td>
+                <td><a href="QuienesSomos.html">¿Quienes somos?</a> </td>
+                <td><a href="obras.html">obras</a> </td>
+                <td><a href="../index.html">home</a> </td> <br>
+            </div>
+        </tr>
+    </table>
+</div>
+
+    <div class="centrar">
+    <div>
+        <h3>Necesitamos comprobar tu identidad </h3>
+        <p>¿como quieres obtener tu codigo de seguridad? </p> 
+         
+        <label for="Recuperación">Enviar correo electronico:</label>
+        <input type="radio" value= "Recuperación" id="Recuperación" onclick="resetElement()" ><br>
+
+    <div class="hidden" id="bloque">
+        <p>Para verificar que esta es tu dirección de correo <br>
+        electrónico, completa la parte oculta y haz clic en<br>
+         "Enviar código" para recibir tu código. </p>
+        <input type="text" id="correo Recuperación" name="correo Recuperación"  value="correo"><br><br>
+         
+        <a href="../index.html"><input type="button" value="Cancelar"></a> 
+        <a href="../index.html"> <input type="button" onclick="alert('Correo enviado con exito!')" value="Obtener codigo" ></a>
+         
+    </div>
+    </div>
+    <script>
+    function resetElement() {
+            
+        document.getElementById("bloque").style.display = "block";
+    }
+</script>
+</body>
+</html>
